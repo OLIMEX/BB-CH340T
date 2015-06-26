@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by Cvpcb 0.201503160816+5517~22~ubuntu14.10.1-product   date = 17.03.2015 (вт)  8,49,52 EET
+
+BeginCmp
+TimeStamp = /5507CA9B;
+Reference = 3.3/5V1;
+ValeurCmp = SEL;
+IdModule  = kicad_wrk:JUMP3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069CF9;
+Reference = C1;
+ValeurCmp = 225;
+IdModule  = kicad_wrk:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069D14;
+Reference = C2;
+ValeurCmp = 104;
+IdModule  = kicad_wrk:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069C71;
+Reference = C3;
+ValeurCmp = 103;
+IdModule  = kicad_wrk:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069DA1;
+Reference = C4;
+ValeurCmp = 22p;
+IdModule  = kicad_wrk:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069DD0;
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = kicad_wrk:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069FB8;
+Reference = POUT1;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069B04;
+Reference = U1;
+ValeurCmp = CH340H/T;
+IdModule  = kicad_wrk:SSOP-20W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5506AA9A;
+Reference = USB1;
+ValeurCmp = USB-MINI-B;
+IdModule  = kicad_wrk:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069DFA;
+Reference = Y1;
+ValeurCmp = 12.0MHz;
+IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+EndCmp
+
+EndListe

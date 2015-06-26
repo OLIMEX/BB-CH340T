@@ -1,0 +1,14 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U1";"SSOP-20W";1;"CH340H/T";;;
+2;"C1";"C_0603";1;"225";;;
+3;"C2";"C_0603";1;"104";;;
+4;"C3";"C_0603";1;"103";;;
+5;"C4,C5";"C_0603";2;"22p";;;
+6;"";"Pin_Header_Angled_1x04";1;"CONN_01X04";;;
+7;"";"LOGO_PBFREE_33";1;"LOGO";;;
+8;"";"LOGO_STATIC_150";1;"LOGO";;;
+9;",";"1pin";2;"1pin";;;
+10;"3.3 5";"JUMP3";1;"SEL";;;
+11;"";"LOGO_OLIMEX_180new";1;"LOGO";;;
+12;"USB1";"USB_Mini-B";1;"USB-MINI-B";;;
+13;"Y1";"Q_49U3HMS";1;"12.0MHz";;;

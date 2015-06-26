@@ -1,0 +1,296 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:usb_mini_b
+LIBS:bb-ch340t-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CH340H/T U1
+U 1 1 55069B04
+P 9300 1700
+F 0 "U1" H 9000 2400 60  0000 C CNN
+F 1 "CH340H/T" H 9250 950 60  0000 C CNN
+F 2 "kicad_wrk:SSOP-20W" H 9300 1700 60  0001 C CNN
+F 3 "" H 9300 1700 60  0000 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1750 8650 1750
+Wire Wire Line
+	6900 1850 8650 1850
+$Comp
+L GND #PWR2
+U 1 1 55069BDF
+P 7000 2100
+F 0 "#PWR2" H 7000 1850 60  0001 C CNN
+F 1 "GND" H 7000 1950 60  0000 C CNN
+F 2 "" H 7000 2100 60  0000 C CNN
+F 3 "" H 7000 2100 60  0000 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1150 7100 1150
+Wire Wire Line
+	6900 1650 7100 1650
+Connection ~ 7100 1150
+$Comp
+L C C3
+U 1 1 55069C71
+P 8450 1400
+F 0 "C3" H 8475 1500 50  0000 L CNN
+F 1 "10nF" H 8475 1300 50  0000 L CNN
+F 2 "kicad_wrk:C_0603" H 8488 1250 30  0001 C CNN
+F 3 "" H 8450 1400 60  0000 C CNN
+	1    8450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 55069CF9
+P 7350 1400
+F 0 "C1" H 7375 1500 50  0000 L CNN
+F 1 "2.2uF" H 7375 1300 50  0000 L CNN
+F 2 "kicad_wrk:C_0603" H 7388 1250 30  0001 C CNN
+F 3 "" H 7350 1400 60  0000 C CNN
+	1    7350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 55069D14
+P 7650 1400
+F 0 "C2" H 7675 1500 50  0000 L CNN
+F 1 "100nF" H 7675 1300 50  0000 L CNN
+F 2 "kicad_wrk:C_0603" H 7688 1250 30  0001 C CNN
+F 3 "" H 7650 1400 60  0000 C CNN
+	1    7650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1550 8650 1550
+Wire Wire Line
+	8450 1250 8650 1250
+Wire Wire Line
+	7350 1250 7350 1150
+Connection ~ 7350 1150
+Wire Wire Line
+	7650 1250 7650 1150
+Connection ~ 7650 1150
+Connection ~ 7650 1550
+Connection ~ 8450 1550
+$Comp
+L C C4
+U 1 1 55069DA1
+P 7700 2500
+F 0 "C4" H 7725 2600 50  0000 L CNN
+F 1 "22p" H 7725 2400 50  0000 L CNN
+F 2 "kicad_wrk:C_0603" H 7738 2350 30  0001 C CNN
+F 3 "" H 7700 2500 60  0000 C CNN
+	1    7700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 55069DD0
+P 8450 2500
+F 0 "C5" H 8475 2600 50  0000 L CNN
+F 1 "22p" H 8475 2400 50  0000 L CNN
+F 2 "kicad_wrk:C_0603" H 8488 2350 30  0001 C CNN
+F 3 "" H 8450 2500 60  0000 C CNN
+	1    8450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 55069DFA
+P 8100 2250
+F 0 "Y1" H 8100 2400 50  0000 C CNN
+F 1 "12.0MHz" H 8100 2100 50  0000 C CNN
+F 2 "Crystals_Oscillators_SMD:Q_49U3HMS" H 8100 2250 60  0001 C CNN
+F 3 "" H 8100 2250 60  0000 C CNN
+	1    8100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2050 7700 2050
+Wire Wire Line
+	7700 2050 7700 2350
+Wire Wire Line
+	7950 2250 7700 2250
+Connection ~ 7700 2250
+Wire Wire Line
+	8250 2250 8650 2250
+Wire Wire Line
+	8450 2350 8450 2250
+Connection ~ 8450 2250
+Wire Wire Line
+	7700 2650 7700 2700
+Wire Wire Line
+	7700 2700 8450 2700
+Wire Wire Line
+	8450 2700 8450 2650
+Wire Wire Line
+	8100 2700 8100 2750
+Connection ~ 8100 2700
+$Comp
+L GND #PWR4
+U 1 1 55069F3B
+P 8100 2750
+F 0 "#PWR4" H 8100 2500 60  0001 C CNN
+F 1 "GND" H 8100 2600 60  0000 C CNN
+F 2 "" H 8100 2750 60  0000 C CNN
+F 3 "" H 8100 2750 60  0000 C CNN
+	1    8100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 POUT1
+U 1 1 55069FB8
+P 10950 1200
+F 0 "POUT1" H 10950 1450 50  0000 C CNN
+F 1 "CONN_01X04" V 11050 1200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 10950 1200 60  0001 C CNN
+F 3 "" H 10950 1200 60  0000 C CNN
+	1    10950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1150 10750 1150
+Wire Wire Line
+	9900 1250 10750 1250
+Wire Wire Line
+	10600 1450 10600 1350
+Wire Wire Line
+	10600 1350 10750 1350
+$Comp
+L GND #PWR5
+U 1 1 5506A094
+P 10600 1450
+F 0 "#PWR5" H 10600 1200 60  0001 C CNN
+F 1 "GND" H 10600 1300 60  0000 C CNN
+F 2 "" H 10600 1450 60  0000 C CNN
+F 3 "" H 10600 1450 60  0000 C CNN
+	1    10600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1050 10750 1050
+Wire Wire Line
+	10200 750  8450 750 
+Connection ~ 8450 1250
+Wire Wire Line
+	7100 550  10900 550 
+Wire Wire Line
+	7100 1650 7100 550 
+$Comp
+L USB-MINI-B USB1
+U 1 1 5506AA9A
+P 6400 1850
+F 0 "USB1" H 6100 2200 50  0000 C CNN
+F 1 "USB-MINI-B" H 6250 1500 50  0000 C CNN
+F 2 "kicad_wrk:USB_Mini-B" H 6400 1750 50  0001 C CNN
+F 3 "" H 6400 1750 50  0000 C CNN
+	1    6400 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2050 7000 2050
+Wire Wire Line
+	7000 2050 7000 2100
+Wire Wire Line
+	5900 1650 5750 1650
+$Comp
+L GND #PWR1
+U 1 1 5506ADD0
+P 5750 2100
+F 0 "#PWR1" H 5750 1850 60  0001 C CNN
+F 1 "GND" H 5750 1950 60  0000 C CNN
+F 2 "" H 5750 2100 60  0000 C CNN
+F 3 "" H 5750 2100 60  0000 C CNN
+	1    5750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1650 5750 2100
+Wire Wire Line
+	5900 2050 5750 2050
+Connection ~ 5750 2050
+Wire Wire Line
+	5900 1950 5750 1950
+Connection ~ 5750 1950
+Wire Wire Line
+	5900 1750 5750 1750
+Connection ~ 5750 1750
+$Comp
+L GND #PWR3
+U 1 1 5506B73B
+P 7650 1550
+F 0 "#PWR3" H 7650 1300 60  0001 C CNN
+F 1 "GND" H 7650 1400 60  0000 C CNN
+F 2 "" H 7650 1550 60  0000 C CNN
+F 3 "" H 7650 1550 60  0000 C CNN
+	1    7650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 750  8450 1250
+$Comp
+L JUMPER3 3.3/5V1
+U 1 1 5507CA9B
+P 10450 750
+F 0 "3.3/5V1" H 10300 900 50  0000 L CNN
+F 1 "opened / opened" H 10450 600 50  0000 C BNN
+F 2 "kicad_wrk:JUMP3" H 10450 750 60  0001 C CNN
+F 3 "" H 10450 750 60  0000 C CNN
+	1    10450 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 850  10450 1050
+Wire Wire Line
+	10900 550  10900 750 
+Wire Wire Line
+	10900 750  10700 750 
+$EndSCHEMATC
