@@ -1,4 +1,4 @@
-update=Fri 26 Jun 2015 02:48:28 PM EEST
+update=" 1.07.2015 (ср)  8,48,56 EEST"
 version=1
 last_client=kicad
 [cvpcb]
