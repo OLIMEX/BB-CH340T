@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bb-ch340t-rescue)(type Legacy)(uri ${KIPRJMOD}/bb-ch340t-rescue.lib)(options "")(descr ""))
+  (lib (name usb_mini_b)(type Legacy)(uri ${KIPRJMOD}/usb_mini_b.lib)(options "")(descr ""))
+)
